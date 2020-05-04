@@ -98,7 +98,7 @@ const IncidentContact = (props) => {
                                     control={
                                         <Radio />
                                     }
-                                    value="Rev"
+                                    value="REV"
                                     label={f({ id: "request.management.incident.create.location.title.rev", defaultMessage: "Rev." })}
                                 />
                                 <FormControlLabel
@@ -106,13 +106,13 @@ const IncidentContact = (props) => {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.mr", defaultMessage: "Mr." })}
-                                    value="Mr"
+                                    value="MR"
                                 />
                                 <FormControlLabel
                                     control={
                                         <Radio />
                                     }
-                                    value="Mrs"
+                                    value="MRS"
                                     label={f({ id: "request.management.incident.create.location.title.mrs", defaultMessage: "Mrs." })}
                                 />
                                 <FormControlLabel
@@ -120,7 +120,7 @@ const IncidentContact = (props) => {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.ms", defaultMessage: "Ms." })}
-                                    value="Ms"
+                                    value="MS"
                                 />
                             </RadioGroup>
                             <FormHelperText>{formErrors.titleErrorMsg ? formErrors.titleErrorMsg : null}</FormHelperText>
@@ -381,7 +381,7 @@ const IncidentContact = (props) => {
                                     control={
                                         <Radio />
                                     }
-                                    value="Rev"
+                                    value="REV"
                                     label={f({ id: "request.management.incident.create.location.title.rev", defaultMessage: "Rev." })}
                                 />
                                 <FormControlLabel
@@ -389,13 +389,13 @@ const IncidentContact = (props) => {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.mr", defaultMessage: "Mr." })}
-                                    value="Mr"
+                                    value="MR"
                                 />
                                 <FormControlLabel
                                     control={
                                         <Radio />
                                     }
-                                    value="Mrs"
+                                    value="MRS"
                                     label={f({ id: "request.management.incident.create.location.title.mrs", defaultMessage: "Mrs." })}
                                 />
                                 <FormControlLabel
@@ -403,7 +403,7 @@ const IncidentContact = (props) => {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.ms", defaultMessage: "Ms." })}
-                                    value="Ms"
+                                    value="MS"
                                 />
                             </RadioGroup>
                             <FormHelperText>{formErrors.recipientTitleErrorMsg ? formErrors.recipientTitleErrorMsg : null}</FormHelperText>

@@ -29,14 +29,15 @@ export function createInternalIncident(incidentData, fileData) {
             const reporterId = incident.reporter;
             const reporterUpdate = {
                 "name": incidentData["reporterName"],
-                // "reporter_type": incidentData["reporterType"],
+                "nic": incidentData["reporterNic"],
+                "title": incidentData["reporterTitle"],
                 "email": incidentData["reporterEmail"],
                 "mobile": incidentData["reporterMobile"],
                 "telephone": incidentData["reporterTelephone"],
                 "address": incidentData["reporterAddress"],
-                "politicalAffiliation": incidentData["reporterAffiliation"],
-                "accusedName": incidentData["accusedName"],
-                "accusedPoliticalAffiliation": incidentData["accusedAffiliation"],
+                "city": incidentData["reporterCity"],
+                "district": incidentData["reporterDistrict"],
+                "gnDivision": incidentData["reporterGramaNiladhari"]
             }
             await incidentsApi.updateReporter(reporterId, reporterUpdate);
 
@@ -69,18 +70,33 @@ export function updateInternalIncident(incidentId, incidentData) {
         try{
             const incident = (await incidentsApi.updateIncident(incidentId, incidentData)).data;
             const reporterId = incident.reporter;
+            const recipientId = incident.recipient;
             const reporterUpdate = {
                 "name": incidentData["reporterName"],
-                // "reporter_type": incidentData["reporterType"],
+                "nic": incidentData["reporterNic"],
+                "title": incidentData["reporterTitle"],
                 "email": incidentData["reporterEmail"],
-                "telephone": incidentData["reporterMobile"],
-                "telephone": incidentData["reporterMobile"],
+                "mobile": incidentData["reporterMobile"],
+                "telephone": incidentData["reporterTelephone"],
                 "address": incidentData["reporterAddress"],
-                "politicalAffiliation": incidentData["reporterAffiliation"],
-                "accusedName": incidentData["accusedName"],
-                "accusedPoliticalAffiliation": incidentData["accusedAffiliation"],
+                "city": incidentData["reporterCity"],
+                "district": incidentData["reporterDistrict"],
+                "gnDivision": incidentData["reporterGramaNiladhari"]
             }
             await incidentsApi.updateReporter(reporterId, reporterUpdate);
+            const recipientUpdate = {
+                "name": incidentData["recipientName"],
+                "nic": incidentData["recipientNic"],
+                "title": incidentData["recipientTitle"],
+                "email": incidentData["recipientEmail"],
+                "mobile": incidentData["recipientMobile"],
+                "telephone": incidentData["recipientTelephone"],
+                "address": incidentData["recipientAddress"],
+                "city": incidentData["recipientCity"],
+                "district": incidentData["recipientDistrict"],
+                "gnDivision": incidentData["recipientGramaNiladhari"]
+            }
+            await incidentsApi.updateRecipient(recipientId, recipientUpdate);
 
             dispatch(updateInternalIncidentSuccess(incident));
             dispatch(loadIncident(incidentId));

@@ -729,7 +729,7 @@ const VerticalLinearStepper = (props) => {
                 mainCategory: incidentMainCatogory,
                 district: incidentDistrict,
                 showRecipient: showRecipient,
-                title:title,
+                // title:title,
                 // recipientType: incidentContact.recipientType,
                 // recipientLocation: recipientLocation,
                 recipientAddress: recipientAddress,
@@ -752,6 +752,7 @@ const VerticalLinearStepper = (props) => {
               let reporterData = {};
               reporterData.name = incidentContact.name;
               reporterData.nic = incidentContact.nic;
+              reporterData.title = title;
               reporterData.telephone = incidentContact.phone;
               reporterData.mobile = incidentContact.mobile;
               reporterData.email = incidentContact.email;
@@ -784,7 +785,7 @@ const VerticalLinearStepper = (props) => {
                 mainCategory: incidentMainCatogory,
                 district: incidentDistrict,
                 showRecipient: showRecipient,
-                title:title,
+                // title:title,
                 // recipientType: incidentContact.recipientType,
                 // recipientLocation: recipientLocation,
                 recipientAddress: recipientAddress,
@@ -807,6 +808,7 @@ const VerticalLinearStepper = (props) => {
               let reporterData = {};
               reporterData.name = incidentContact.name;
               reporterData.nic = incidentContact.nic;
+              reporterData.title = title;
               reporterData.telephone = incidentContact.phone;
               reporterData.mobile = incidentContact.mobile;
               reporterData.email = incidentContact.email;

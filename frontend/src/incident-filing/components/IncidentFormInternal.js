@@ -399,12 +399,11 @@ function IncidentFormInternal(props) {
     const recipient = incident
     ? recipients.byIds[incident.recipient]
     : "";
-
     if (reporter) {
       Object.assign(initData, {
         reporterName: reporter.name,
         reporterNic: reporter.nic,
-        reporterTitle: reporter.reporterTitle,
+        reporterTitle: reporter.title,
         reporterEmail: reporter.email,
         reporterMobile: reporter.mobile,
         reporterTelephone: reporter.telephone,
@@ -417,8 +416,8 @@ function IncidentFormInternal(props) {
     if (recipient) {
         Object.assign(initData, {
           recipientName: recipient.name,
-          recipientNic: recipient.recipientNic,
-          recipientTitle: recipient.recipientTitle,
+          recipientNic: recipient.nic,
+          recipientTitle: recipient.title,
           recipientEmail: recipient.email,
           recipientMobile: recipient.mobile,
           recipientTelephone: recipient.telephone,
@@ -1382,7 +1381,7 @@ function IncidentFormInternal(props) {
                                     control={
                                         <Radio />
                                     }
-                                    value="Rev"
+                                    value="REV"
                                     label={f({ id: "request.management.incident.create.location.title.rev", defaultMessage: "Rev." })}
                                 />
                                 <FormControlLabel
@@ -1390,13 +1389,13 @@ function IncidentFormInternal(props) {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.mr", defaultMessage: "Mr." })}
-                                    value="Mr"
+                                    value="MR"
                                 />
                                 <FormControlLabel
                                     control={
                                         <Radio />
                                     }
-                                    value="Mrs"
+                                    value="MRS"
                                     label={f({ id: "request.management.incident.create.location.title.mrs", defaultMessage: "Mrs." })}
                                 />
                                 <FormControlLabel
@@ -1404,7 +1403,7 @@ function IncidentFormInternal(props) {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.ms", defaultMessage: "Ms." })}
-                                    value="Ms"
+                                    value="MS"
                                 />
                             </RadioGroup>
                             <FormHelperText>{touched.reporterTitle ? errors.reporterTitle : null}</FormHelperText>
@@ -1728,7 +1727,7 @@ function IncidentFormInternal(props) {
                                     control={
                                         <Radio />
                                     }
-                                    value="Rev"
+                                    value="REV"
                                     label={f({ id: "request.management.incident.create.location.title.rev", defaultMessage: "Rev." })}
                                 />
                                 <FormControlLabel
@@ -1736,13 +1735,13 @@ function IncidentFormInternal(props) {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.mr", defaultMessage: "Mr." })}
-                                    value="Mr"
+                                    value="MR"
                                 />
                                 <FormControlLabel
                                     control={
                                         <Radio />
                                     }
-                                    value="Mrs"
+                                    value="MRS"
                                     label={f({ id: "request.management.incident.create.location.title.mrs", defaultMessage: "Mrs." })}
                                 />
                                 <FormControlLabel
@@ -1750,7 +1749,7 @@ function IncidentFormInternal(props) {
                                         <Radio />
                                     }
                                     label={f({ id: "request.management.incident.create.location.title.ms", defaultMessage: "Ms." })}
-                                    value="Ms"
+                                    value="MS"
                                 />
                             </RadioGroup>
                             <FormHelperText>{touched.recipientTitle ? errors.recipientTitle : null}</FormHelperText>

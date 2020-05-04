@@ -97,6 +97,10 @@ export const updateReporter = async (reporterId, reporterData) => {
   return (await handler.put(`/reporters/${reporterId}`, reporterData)).data;
 }
 
+export const updateRecipient = async (recipientId, recipientData) => {
+  return (await handler.put(`/recipients/${recipientId}`, recipientData)).data;
+}
+
 export const changeStatus = async (incidentId, status) => {
   return (await handler.get(`/incidents/${incidentId}/status?action=update&type=${status}`)).data;
 };
