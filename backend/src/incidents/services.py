@@ -25,6 +25,7 @@ from .models import (
     SendCannedResponseWorkflow
 )
 from django.contrib.auth.models import User, Group, Permission
+from django.contrib.contenttypes.models import ContentType
 
 from ..events import services as event_services
 from ..events.models import Event
@@ -82,11 +83,11 @@ def get_incident_status_guest(refId):
         status["reply"] = "Your request has been received. Please check again later for status updates."
     elif incident.current_status == StatusType.VERIFIED.name:
         status["reply"] = "Your request has been acknowledged."
+    elif incident.current_status == StatusType.INFORMATION_REQESTED.name or has_pending_information_request(incident):
+        status = get_public_status_on_information_request(incident)
     elif incident.current_status == StatusType.ACTION_PENDING.name or incident.current_status == StatusType.ACTION_TAKEN.name \
         or incident.current_status == StatusType.INFORMATION_PROVIDED.name:
         status["reply"] = "Your request is currently being attended to."
-    elif incident.current_status == StatusType.INFORMATION_REQESTED.name:
-        status = get_public_status_on_information_request(incident)
     elif incident.current_status == StatusType.CLOSED.name:
         status = get_public_status_on_close(incident)
     elif incident.current_status == StatusType.INVALIDATED.name:
@@ -95,25 +96,38 @@ def get_incident_status_guest(refId):
 
     return status
 
+def has_pending_information_request(incident):
+    """ function that returns boolean, on pending information requests """
+
+    requests = RequestInformationWorkflow.objects.filter(incident=incident, is_information_provided=False)
+    if len(requests) > 0 :
+        return True
+    else:
+        return False
+
+
 def get_public_status_on_information_request(incident):
     status = {}
     messages = []
 
     # get all information requests
     requests = RequestInformationWorkflow.objects.filter(incident=incident, is_information_provided=False)
-    for request in requests:
-        output = {}
-        output["header"] = "Required information"
-        output["content"] = request.comment
+    # we will not be looping at the moment.
+    # reason: looping will give serveral input forms, which is not properly handled on frontend yet.
+    output = {}
+    output["header"] = "Required information"
+    output["content"] = requests[0].comment
 
-        actions = {}
-        actions["name"] = "Submit reply"
-        actions["incident_id"] = request.incident_id
-        event = Event.objects.get(reference_id=request.id)
-        actions["start_event"] = event.id
-        output["actions"] = actions
+    actions = {}
+    actions["name"] = "Submit reply"
+    actions["incident_id"] = requests[0].incident_id
+    information_request_model_type = ContentType.objects.get(app_label='incidents', model='RequestInformationWorkflow')
+    event = Event.objects.get(reference_id=requests[0].id, refered_model_type=information_request_model_type)
+    actions["start_event"] = event.id
 
-        messages.append(output)
+    output["actions"] = actions
+
+    messages.append(output)
 
     status["reply"] = "Your request requires further information to proceed. Please provide the following \
         details at your earliest convenience."
@@ -854,13 +868,14 @@ def incident_provide_information(user: User, incident: Incident, comment: str, s
     initiated_workflow.is_information_provided = True
     initiated_workflow.save()
 
-    status = IncidentStatus(
-        current_status=StatusType.INFORMATION_PROVIDED,
-        previous_status=incident.current_status,
-        incident=incident,
-        approved=True
-    )
-    status.save()
+    if (ncident.current_status != StatusType.ACTION_PENDING.name and not has_pending_information_request(incident)) :
+        status = IncidentStatus(
+            current_status=StatusType.INFORMATION_PROVIDED,
+            previous_status=incident.current_status,
+            incident=incident,
+            approved=True
+        )
+        status.save()
 
     # check this
     # incident.linked_individuals.remove(user.id)
@@ -995,19 +1010,23 @@ def attach_media(user:User, incident:Incident, uploaded_file:File):
 def get_fitlered_incidents_report(incidents: Incident, output_format: str):
 
     sql = """
-            SELECT i.refId, i.title, i.description, i.current_status, i.current_severity, i.response_time, d.sub_category as category
+            SELECT i.refId, f.name as channel, i.description, i.current_status, i.current_severity, i.response_time, d.sub_category as category
                 FROM incidents_incident i
                 LEFT JOIN (
                   SELECT c.id, c.sub_category
                   FROM common_category c
                 ) d
                 ON d.id = i.category
+                LEFT JOIN (
+                    SELECT e.id, e.name FROM common_channel e
+                ) f
+                ON f.id = i.infoChannel
         """
     with connection.cursor() as cursor:
         cursor.execute(sql)
         incidents = cursor.fetchall()
         dataframe = pd.DataFrame(list(incidents))
-    dataframe.columns = ["Ref ID", "Title", "Description", "Status", "Severity", "Response Time", "Category"]
+    dataframe.columns = ["Ref ID", "Mode of receipt", "Description", "Status", "Priority", "Response Time", "Category"]
 
     if output_format == "csv":
         response = HttpResponse(content_type='text/csv')

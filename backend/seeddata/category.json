@@ -4,7 +4,7 @@
     "pk": "1",
     "fields": {
       "code": "EDU-1",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Admission of children to grade one",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පළමු ශ්‍රේණියට දරුවන් ඇතුළත් කර ගැනීම්",
@@ -18,7 +18,7 @@
     "pk": "2",
     "fields": {
       "code": "EDU-2",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Grade 5 scholarship results",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පහ ශිෂ්‍යත්වය ප්‍රතිඵල මත දරුවන් ඇතුළත් කර ගැනීම්",
@@ -32,7 +32,7 @@
     "pk": "3",
     "fields": {
       "code": "EDU-3",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Admission to A/L classes",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "උසස් පෙළ පන්ති සඳහා ඇතුළත් කර ගැනීම්",
@@ -46,7 +46,7 @@
     "pk": "4",
     "fields": {
       "code": "EDU-4",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Development of school infrastructure",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පාසල්වල යටිතල පහසුකම් සංවර්ධනය සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -60,7 +60,7 @@
     "pk": "5",
     "fields": {
       "code": "EDU-5",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Principals or teachers ",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "විදුහල්පති හෝ ගුරුවරු සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -74,7 +74,7 @@
     "pk": "6",
     "fields": {
       "code": "EDU-6",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Academic or non-academic personnel",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "විශ්වවිද්‍යාල අධ්‍යයන හා අනධ්‍යයන පිරිස් සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -88,7 +88,7 @@
     "pk": "7",
     "fields": {
       "code": "EDU-7",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Mahapola scholarships",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ශිෂ්‍යත්ව හෝ මහපොළ දීමනා සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -102,7 +102,7 @@
     "pk": "8",
     "fields": {
       "code": "EDU-8",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "University Admissions ",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "විශ්වවිද්‍යාල ප්‍රවේශ සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -116,7 +116,7 @@
     "pk": "9",
     "fields": {
       "code": "EDU-9",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Vocational training and skills development institutions ",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වෘත්තීය පුහුණු හා නිපුණතා සංවර්ධන කටයුතු හා ආයතන සම්බන්ධ ගැටලු ",
@@ -130,7 +130,7 @@
     "pk": "10",
     "fields": {
       "code": "EDU-10",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Mahapola scholarships",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "බෞද්ධ, හින්දු, ක්‍රිස්තියානි, ඉස්ලාම් ඇතුලු සර්ව ආගම් සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -144,7 +144,7 @@
     "pk": "11",
     "fields": {
       "code": "EDU-11",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Language, culture or archaeology ",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "රාජ්‍ය භාෂා, සංස්කෘතික හා පුරාවිද්‍යා කටයුතු සම්බන්ධ ගැටලු ",
@@ -158,7 +158,7 @@
     "pk": "12",
     "fields": {
       "code": "EDU-12",
-      "top_category": "Issues in the field of education, higher education, religious and cultural",
+      "top_category": "Education, higher education, religious and cultural",
       "sub_category": "Sports",
       "sn_top_category": "අධ්‍යාපන, උසස් අධ්‍යාපන, ආගමික හා සංස්කෘතික ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ක්‍රීඩා ක්ෂේත්‍රය සම්බන්ධව ගැටලු ",
@@ -172,7 +172,7 @@
     "pk": "13",
     "fields": {
       "code": "LABOUR-1",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Graduate employment",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "උපාධිධාරී රැකියා ඉල්ලීම් ",
@@ -186,7 +186,7 @@
     "pk": "14",
     "fields": {
       "code": "LABOUR-2",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Other job-related requests",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වෙනත් රැකියා ඉල්ලීම් ",
@@ -200,7 +200,7 @@
     "pk": "15",
     "fields": {
       "code": "LABOUR-3",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "ETF/EPF ",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ETF/ EPF සම්බන්ධ ගැටලු",
@@ -214,7 +214,7 @@
     "pk": "16",
     "fields": {
       "code": "LABOUR-4",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Other issues - private sector",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පෞද්ගලික ආයතන සම්බන්ධ වෙනත් ගැටලු",
@@ -228,7 +228,7 @@
     "pk": "17",
     "fields": {
       "code": "LABOUR-5",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Repatriation of migrant workers",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "විදේශගත ශ්‍රමිකයින් මෙරටට ගෙන්වා ගැනීම ",
@@ -242,7 +242,7 @@
     "pk": "18",
     "fields": {
       "code": "LABOUR-6",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Unfairness or fraud committed by foreign employment agencies",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "විදේශ රැකියා ආයතන විසින් සිදු කරන වංචා හෝ අසාධාරණ",
@@ -256,7 +256,7 @@
     "pk": "19",
     "fields": {
       "code": "LABOUR-7",
-      "top_category": "Issues related to Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
+      "top_category": "Labor, Professional Relations, Graduate Employment, Foreign Employment and Foreign Affairs",
       "sub_category": "Missing migrant workers",
       "sn_top_category": "කම්කරු, වෘත්තීය සබඳතා, උපාධිධාරි රැකියා, විදේශ රැකියා සහ විදේශ කටයුතු ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "අතුරුදහන් විදේශගත ශ්‍රමිකයින්",
@@ -354,7 +354,7 @@
     "pk": "26",
     "fields": {
       "code": "ENV-1",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Garbage and waste disposal",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "කැළි කසල හා අපජලය බැහැර කිරීම්",
@@ -368,7 +368,7 @@
     "pk": "27",
     "fields": {
       "code": "ENV-2",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Illegal smuggling of sand and soil/earth",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "වැලි හා පස් ජාවාරම් සිදු කිරීම්",
@@ -382,7 +382,7 @@
     "pk": "28",
     "fields": {
       "code": "ENV-3",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Illegal logging and mining quarries",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "අනවසර පතල් කැපීම් හා ගල් කොරි පවත්වාගෙන යාම",
@@ -396,7 +396,7 @@
     "pk": "29",
     "fields": {
       "code": "ENV-4",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Unauthorized housing or building construction",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "අනවසර නිවාස හෝ ගොඩනැගිලි ඉදිකිරීම්",
@@ -410,7 +410,7 @@
     "pk": "30",
     "fields": {
       "code": "ENV-5",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Unauthorized filling of lowland paddy areas and land reclamation",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "අනවසරයෙන් පහත්බිම් ගොඩකිරීම් හා කුඹුරු ඉඩම් ගොඩ කිරීම්",
@@ -424,7 +424,7 @@
     "pk": "31",
     "fields": {
       "code": "ENV-6",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Conservation activities (clearing of forests, illegal trafficking, etc.)",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "වන සංරක්ෂණ කටයුතු (කැලෑ එළිපෙහෙළි කිරීම, අනවසර දැව ජාවාරම් ආදිය)",
@@ -438,7 +438,7 @@
     "pk": "32",
     "fields": {
       "code": "ENV-7",
-      "top_category": "Issues pertaining to the Environment",
+      "top_category": "Environment",
       "sub_category": "Wildlife Conservation (animal trafficking, animal killing, illegal disposal etc.)",
       "sn_top_category": "පරිසර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "වන සත්ත්ව සංරක්ෂණය (සත්ත්ව ජාවාරම්, සත්ත්ව ඝාතන සහ නීති විරෝධි බැහැර කිරීම් ආදිය)",
@@ -452,7 +452,7 @@
     "pk": "33",
     "fields": {
       "code": "LAW-1",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Problems w/ state and public security",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "රාජ්‍ය හා මහජන ආරක්ෂාව සම්බන්ධ ගැටලු",
@@ -466,7 +466,7 @@
     "pk": "34",
     "fields": {
       "code": "LAW-2",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Army, Navy and Airforce",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "යුධ, ගුවන් හා නාවික හමුදා පිළිබඳ ගැටලු",
@@ -480,7 +480,7 @@
     "pk": "35",
     "fields": {
       "code": "LAW-3",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Police and Civil Defence",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "පොලීසිය හා සිවිල් ආරක්ෂක සේවය සම්බන්ධ ගැටලු ",
@@ -494,7 +494,7 @@
     "pk": "36",
     "fields": {
       "code": "LAW-4",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Weaknesses and shortcomings in the police investigation of complaints",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "පොලිස් පැමිණිලි විමර්ශනය කිරීමේ පවතින දුර්වලතා හා අඩුපාඩු",
@@ -508,7 +508,7 @@
     "pk": "37",
     "fields": {
       "code": "LAW-5",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Drug prevention activities",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "මත්ද්‍රව්‍ය නිවාරණ කටයුතු",
@@ -522,8 +522,8 @@
     "pk": "38",
     "fields": {
       "code": "LAW-6",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
-      "sub_category": "Issues related to trial court",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
+      "sub_category": "trial court",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "අධිකරණයේ පවත්නා නඩු කටයුතු සම්බන්ධ ගැටලු ",
       "tm_top_category": "பாதுகாப்பு, சட்டம் ஒழுங்கு, நீதித்துறை மற்றும் சிறைத் தொழில் தொடர்பான பிரச்சினைகள்",
@@ -536,7 +536,7 @@
     "pk": "39",
     "fields": {
       "code": "LAW-7",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Prison inmates",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "බන්ධනාගාර රැඳවියන් සම්බන්ධ ගැටලු",
@@ -550,7 +550,7 @@
     "pk": "40",
     "fields": {
       "code": "LAW-8",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Justice of Peace, Coronoer, Quazi courts",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "සාමදාන විනිශ්චයකාර, මරණ පරීක්ෂක හා කාති උසාවි සම්බන්ධ ගැටලු",
@@ -564,7 +564,7 @@
     "pk": "41",
     "fields": {
       "code": "LAW-9",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Individual rehabilitation",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "පුද්ගල පුනරුත්ථාපන කටයුතු",
@@ -578,7 +578,7 @@
     "pk": "42",
     "fields": {
       "code": "LAW-10",
-      "top_category": "Issues pertaining to defense, law and order, the judiciary and the prison industry",
+      "top_category": "Defense, law and order, the judiciary and the prison industry",
       "sub_category": "Request for Presidential Pardon of offenders",
       "sn_top_category": "ආරක්ෂක, නීතිය හා සාමය,අධිකරණ හා බන්ධනාගාර ක්ෂේත්‍රයට අදාළ ගැටලු",
       "sn_sub_category": "වරදකරුවන් වෙනුවෙන් ජනාධිපති සමාව ඉල්ලා සිටීම",
@@ -592,7 +592,7 @@
     "pk": "43",
     "fields": {
       "code": "AGRI-1",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Payment of compensation for crop loss",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වගා හානි සඳහා වූ වන්දි ගෙවීම් කටයුතු",
@@ -606,7 +606,7 @@
     "pk": "44",
     "fields": {
       "code": "AGRI-2",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Agricultural equipment, fertilizer, or wells",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "කෘෂි උපකරණ, පොහොර හෝ වගා ළිං සම්බන්ධ ඉල්ලීම්",
@@ -620,7 +620,7 @@
     "pk": "45",
     "fields": {
       "code": "AGRI-3",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Irrigation related (maintenance related to lakes and streams etc. ) ",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වාරිමාර්ග සම්බන්ධ ඉල්ලීම් හෝ ගැටලු (වැව් සහ ඇළ මාර්ග ප්‍රතිසංස්කරණ කටයුතු ආදිය)",
@@ -634,7 +634,7 @@
     "pk": "46",
     "fields": {
       "code": "AGRI-4",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Livestock sector",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පශු සම්පත් ක්ෂේත්‍රය",
@@ -648,7 +648,7 @@
     "pk": "47",
     "fields": {
       "code": "AGRI-5",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Fisheries and Aquatic resources",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ධීවර හා ජලජ සම්පත් කර්මාන්ත ක්ෂේත්‍ර",
@@ -662,7 +662,7 @@
     "pk": "48",
     "fields": {
       "code": "AGRI-6",
-      "top_category": "Issues related to Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation Industries",
+      "top_category": "Agriculture, Irrigation, Livestock Development, Fisheries and Aquatic Resources and Plantation",
       "sub_category": "Crops",
       "sn_top_category": "කෘෂිකර්ම, වාරිමාර්ග, පශු සම්පත් සංවර්ධන, ධීවර හා ජලජ සම්පත් හා වැවිලි කර්මාන්ත ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "අපනයන බෝග සම්බන්ධ ඉල්ලීම් හෝ ගැටලු",
@@ -676,7 +676,7 @@
     "pk": "49",
     "fields": {
       "code": "FINANCE-1",
-      "top_category": "Problems with Financial and Financial Institutions",
+      "top_category": "Banks and Financial Institutions",
       "sub_category": "Loan request",
       "sn_top_category": "මූල්‍ය හා මූල්‍ය ආයතන සම්බන්ධ ගැටලු",
       "sn_sub_category": "ණය ඉල්ලීම් ",
@@ -690,7 +690,7 @@
     "pk": "50",
     "fields": {
       "code": "FINANCE-2",
-      "top_category": "Problems with Financial and Financial Institutions",
+      "top_category": "Banks and Financial Institutions",
       "sub_category": "Debt relief and loan restructuring/writeoffs",
       "sn_top_category": "මූල්‍ය හා මූල්‍ය ආයතන සම්බන්ධ ගැටලු",
       "sn_sub_category": "ණය සහන හා ණය මුදල් කපා හැරීම් ",
@@ -704,7 +704,7 @@
     "pk": "51",
     "fields": {
       "code": "FINANCE-3",
-      "top_category": "Problems with Financial and Financial Institutions",
+      "top_category": "Banks and Financial Institutions",
       "sub_category": "Irregularities committed by financial institutions or unfair",
       "sn_top_category": "මූල්‍ය හා මූල්‍ය ආයතන සම්බන්ධ ගැටලු",
       "sn_sub_category": "මූල්‍ය ආයතන විසින් සිදු කරන අක්‍රමිකතා හෝ අසාධාරණ",
@@ -830,7 +830,7 @@
     "pk": "60",
     "fields": {
       "code": "HEALTH-1",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Drugs, medical equipment, sanitation and infrastructure demands",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "රෝහල්වල ඖෂධ, වෛද්‍ය උපකරණ, සනීපාරක්ෂක සේවා සහ යටිතල පහසුකම් ඉල්ලීම්",
@@ -844,7 +844,7 @@
     "pk": "61",
     "fields": {
       "code": "HEALTH-2",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Health matter-related nfairness, mistakes, bribery or misconduct ",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "වෛද්‍ය ප්‍රතිකාර මගින් සිදුවන අතපසුවීම්, අසාධාරණ හා සෞඛ්‍ය කාර්ය මණ්ඩලය සම්බන්ධ අල්ලස් ගැනීම්, වංචනික ක්‍රියා, විෂමාචාර",
@@ -858,7 +858,7 @@
     "pk": "62",
     "fields": {
       "code": "HEALTH-3",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Health staff recruitment, promotion, transfer, removal and re-issues of recruitment",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "සෞඛ්‍ය කාර්ය මණ්ඩලයේ බඳවා ගැනීම්, උසස් කිරීම්, ස්ථාන මාරු කිරීම්, ඉවත් කිරීම් හා නැවත සේවයට බඳවා ගැනීම් සම්බන්ධ ගැටලු ",
@@ -872,7 +872,7 @@
     "pk": "63",
     "fields": {
       "code": "HEALTH-4",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Problems with local and Ayurvedic medicine",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "දේශීය සහ ආයුර්වේද වෛද්‍ය ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
@@ -886,7 +886,7 @@
     "pk": "64",
     "fields": {
       "code": "HEALTH-5",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Abuse of women and children, child labor, violence against women",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "ළමයින් හා කාන්තාවන් අපයෝජනයට ලක් කිරීම, ළමා මෙහෙකාර සේවය, කාන්තා හිංසනය සම්බන්ධ ගැටලු ",
@@ -900,7 +900,7 @@
     "pk": "65",
     "fields": {
       "code": "HEALTH-6",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Child custody, maintenance and interim/foster care",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "ළමුන්ගේ භාරකාරත්වය, පරිවාසභාරයට පත්කිරීම හා නඩත්තු සම්බන්ධ ගැටලු ",
@@ -914,7 +914,7 @@
     "pk": "66",
     "fields": {
       "code": "HEALTH-7",
-      "top_category": "Issues relating to health, nutrition, child and women's affairs",
+      "top_category": "Health, nutrition, child and women's affairs",
       "sub_category": "Early childhood development centers and children's homes",
       "sn_top_category": "සෞඛ්‍ය,පෝෂණ, ළමා හා කාන්තා කටයුතු සම්බන්ධ ගැටලු",
       "sn_sub_category": "මුල් ළමාවිය සංවර්ධන මධ්‍යස්ථාන හා ළමා නිවාස සම්බන්ධ ගැටලු",
@@ -928,7 +928,7 @@
     "pk": "67",
     "fields": {
       "code": "INFRA-1",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Public transport (railways, SLTB etc. )",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පොදු ප්‍රවාහන ක්ෂේත්‍රය (දුම්රිය සේවය, ශ්‍රීලංගම, මාර්ගස්ථ මගී ප්‍රවාහන)",
@@ -942,7 +942,7 @@
     "pk": "68",
     "fields": {
       "code": "INFRA-2",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Ports and Aviation",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වරාය, නාවික හා ගුවන් සේවා",
@@ -956,7 +956,7 @@
     "pk": "69",
     "fields": {
       "code": "INFRA-3",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Water, electricity and telephone connections ",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ජලය, විදුලිය හා දුරකථන සම්බන්ධ ගැටලු හෝ ඉල්ලීම්",
@@ -970,7 +970,7 @@
     "pk": "70",
     "fields": {
       "code": "INFRA-4",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Road construction and repair work",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "මාර්ග ඉදිකිරීම් හා ප්‍රතිසංස්කරණ කටයුතු",
@@ -984,7 +984,7 @@
     "pk": "71",
     "fields": {
       "code": "INFRA-5",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Highways",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "අධිවේගී මාර්ග සම්බන්ධ ගැටලු",
@@ -998,7 +998,7 @@
     "pk": "72",
     "fields": {
       "code": "INFRA-6",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Television, radio and newspapers",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "රූපවාහිනී, ගුවන් විදුලි හා පුවත්පත් ආයතන",
@@ -1012,7 +1012,7 @@
     "pk": "73",
     "fields": {
       "code": "INFRA-7",
-      "top_category": "Issues related to Transport, Infrastructure and Communication",
+      "top_category": "Transport, Infrastructure and Communication",
       "sub_category": "Web sites, Internet activities and other means of communication",
       "sn_top_category": "ප්‍රවාහන, යටිතල පහසුකම් හා සන්නිවේදන ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "වෙබ් අඩවි, අන්තර්ජාල ක්‍රියාකාරකම් සහ අනෙකුත් සන්නිවේදන මාධ්‍යයන්",
@@ -1124,7 +1124,7 @@
     "pk": "81",
     "fields": {
       "code": "COMM-1",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "Consumer goods and services (price, quality and deficiencies)",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "පාරිභෝගික භාණ්ඩ හා සේවා සැපයීම් (මිල, ප්‍රමිතිය හා හිඟයන් සම්බන්ධව)",
@@ -1138,7 +1138,7 @@
     "pk": "82",
     "fields": {
       "code": "COMM-2",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "Government, state-owned factories and institutions",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "රජයේ කර්මාන්තශාලා හා රාජ්‍ය ව්‍යවසායී ආයතන සම්බන්ධ ගැටලු",
@@ -1152,7 +1152,7 @@
     "pk": "83",
     "fields": {
       "code": "COMM-3",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "Co-operative or rural banks",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "සමුපකාර හා ග්‍රාමීය බැංකු සම්බන්ධ ගැටලු",
@@ -1166,7 +1166,7 @@
     "pk": "84",
     "fields": {
       "code": "COMM-4",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "National/local industry development and promotion",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "දේශීය කර්මාන්ත නඟා සිටුවීම් හා ප්‍රවර්ධනය සඳහා අවශ්‍ය සහාය පැතීම්",
@@ -1180,7 +1180,7 @@
     "pk": "85",
     "fields": {
       "code": "COMM-5",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "Investment promotion zones",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ආයෝජන ප්‍රවර්ධන කලාප සම්බන්ධ ගැටලු ",
@@ -1194,7 +1194,7 @@
     "pk": "86",
     "fields": {
       "code": "COMM-6",
-      "top_category": "Issues related to Industry and Commerce",
+      "top_category": "Industry and Commerce",
       "sub_category": "Tourism",
       "sn_top_category": "කර්මාන්ත හා වාණිජ ක්ෂේත්‍රය සම්බන්ධ ගැටලු",
       "sn_sub_category": "සංචාරක කර්මාන්තය ආශ්‍රිත ගැටලු ",
@@ -1264,7 +1264,7 @@
     "pk": "91",
     "fields": {
       "code": "COVID19-1",
-      "top_category": "Problems with the Covid-19 epidemic",
+      "top_category": "COVID-19",
       "sub_category": "Violation of curfew",
       "sn_top_category": "කොවිඩ්-19 වසංගතය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ඇඳිරිනීති කඩකිරීම් සම්බන්ධ ගැටලු",
@@ -1278,7 +1278,7 @@
     "pk": "92",
     "fields": {
       "code": "COVID19-2",
-      "top_category": "Problems with the Covid-19 epidemic",
+      "top_category": "COVID-19",
       "sub_category": "Subsidies and allowances",
       "sn_top_category": "කොවිඩ්-19 වසංගතය සම්බන්ධ ගැටලු",
       "sn_sub_category": "සහනාධාර හා දීමනා නිසි පරිදි නොලැබීම්",
@@ -1292,7 +1292,7 @@
     "pk": "93",
     "fields": {
       "code": "COVID19-3",
-      "top_category": "Problems with the Covid-19 epidemic",
+      "top_category": "COVID-19",
       "sub_category": "Food distribution",
       "sn_top_category": "කොවිඩ්-19 වසංගතය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ආහාර බෙදාහැරීම් සම්බන්ධ ගැටලු",
@@ -1306,7 +1306,7 @@
     "pk": "94",
     "fields": {
       "code": "COVID19-4",
-      "top_category": "Problems with the Covid-19 epidemic",
+      "top_category": "COVID-19",
       "sub_category": "Clergy",
       "sn_top_category": "කොවිඩ්-19 වසංගතය සම්බන්ධ ගැටලු",
       "sn_sub_category": "ආගමික සිද්ධාස්ථාන හා පූජ්‍ය පක්ෂය සම්බන්ධ ගැටලු",
@@ -1320,7 +1320,7 @@
     "pk": "95",
     "fields": {
       "code": "COVID19-5",
-      "top_category": "Problems with the Covid-19 epidemic",
+      "top_category": "COVID-19",
       "sub_category": "COVID-19 related problems",
       "sn_top_category": "කොවිඩ්-19 වසංගතය සම්බන්ධ ගැටලු",
       "sn_sub_category": "කොවිඩ්-19 සම්බන්ධ වෙනත් ගැටලු",

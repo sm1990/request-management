@@ -30,6 +30,7 @@ import PrintIcon from "@material-ui/icons/Print";
 import CancelIcon from "@material-ui/icons/Cancel";
 import ErrorIcon from "@material-ui/icons/Error";
 import QnAIcon from "@material-ui/icons/QuestionAnswer";
+import MenuOpenIcon from "@material-ui/icons/Reorder";
 
 import IconButton from "@material-ui/core/IconButton";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
@@ -166,6 +167,26 @@ const EventActions = (props) => {
                 </IconButton>
               </ListItemSecondaryAction>
             )}
+        </ListItem>
+
+        <ListItem>
+          <Avatar>
+            <AccessTimeIcon />
+          </Avatar>
+          <ListItemText
+            primary="Linked users"
+            secondary={activeIncident.linked_individuals.length + " user(s) linked"}
+          />
+            <ListItemSecondaryAction>
+              <IconButton
+                aria-label="View"
+                onClick={() => {
+                  dispatch(showModal("LINKED_INDIVIDUAL_MODAL", { activeIncident }));
+                }}
+              >
+                <MenuOpenIcon />
+              </IconButton>
+            </ListItemSecondaryAction>
         </ListItem>
 
         <ListItem>

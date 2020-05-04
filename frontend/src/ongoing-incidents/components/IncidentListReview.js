@@ -120,6 +120,7 @@ function IncidentList({
           <CustomTableCell align="center">{f({id: "request.management.home.incidents.list.created_date"})}</CustomTableCell>
           <CustomTableCell align="center">{f({id: "request.management.incident.create.location.district"})}</CustomTableCell>
           <CustomTableCell align="center">{f({id: "request.management.home.incidents.list.status"})}</CustomTableCell>
+          <CustomTableCell align="center">{f({id: "request.management.home.incidents.list.severity"})}</CustomTableCell>
           <CustomTableCell align="center">{f({id: "request.management.home.incidents.list.category"})}</CustomTableCell>
           <CustomTableCell align="center">{f({id: "request.management.home.incidents.list.description"})}</CustomTableCell>
           {/* <CustomTableCell align="center">Final Resolution</CustomTableCell> */}
@@ -148,6 +149,9 @@ function IncidentList({
               <CustomTableCell align="center">
                 <p>{row.currentStatus}</p>
               </CustomTableCell>
+            <CustomTableCell align="center">
+                <p>{row.severity}</p>
+            </CustomTableCell>
               <CustomTableCell align="left">
                 <p>
                   {categories.map((value, index) =>

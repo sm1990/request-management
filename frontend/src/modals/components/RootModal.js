@@ -18,6 +18,7 @@ import CompleteOutsideActionModal from './CompleteOutsideActionModal'
 import InvalidateModal from './InvalidateModal';
 import ReopenModal from './ReopenModal';
 import SendCannedResponseModal from './CannedResponseModal'
+import LinkedIndividualsModal from './LinkedIndividualModal'
 
 const MODAL_COMPONENTS = {
     'RESPONSE_TIME_EDIT': ResponseTimeEditModal,
@@ -32,6 +33,7 @@ const MODAL_COMPONENTS = {
     'INVALIDATE_MODAL': InvalidateModal,
     'REOPEN_MODAL': ReopenModal,
     'CANNED_RESPONSE': SendCannedResponseModal,
+    'LINKED_INDIVIDUAL_MODAL':LinkedIndividualsModal
     /* other modals */
 }
 
