@@ -618,6 +618,11 @@ class ReporterPublicUserView(APIView):
         serializer = ReporterSerializer(snippet, data=request.data)
         if serializer.is_valid():
             serializer.save()
+
+            # send notifications once reporter is updated
+            # reason: this is the last function call on creation of incident
+            send_incident_created_mail_sms(reporter_id)
+
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
